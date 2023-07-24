@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator project</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="main-container">
+        <div class="display">
+            <input type="text" id="disp">
+        </div>
+        <div class="butt">
+            <button class="text" onclick="pop()">AC</button>
+            <button class="text" onclick="del()">DE</button>
+            <button class="text" onclick="push('%')">%</button>
+            <button class="text" onclick="push('/')">/</button>
+            <button class="bt-style" onclick="push('7')">7</button>
+            <button class="bt-style" onclick="push('8')">8</button>
+            <button class="bt-style" onclick="push('9')">9</button>
+            <button class="bt-style" onclick="push('*')">*</button>
+            <button class="bt-style" onclick="push('4')">4</button>
+            <button class="bt-style" onclick="push('5')">5</button>
+            <button class="bt-style" onclick="push('6')">6</button>
+            <button class="bt-style" onclick="push('-')">-</button>
+            <button class="bt-style" onclick="push('1')">1</button>
+            <button class="bt-style" onclick="push('2')">2</button>
+            <button class="bt-style" onclick="push('3')">3</button>
+            <button class="bt-style" onclick="push('+')">+</button>
+            <button class="bt-style" onclick="push('00')">00</button>
+            <button class="bt-style" onclick="push('0')">0</button>
+            <button class="bt-style" onclick="push('.')">.</button>
+            <button class="orange"   onclick="solve()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
